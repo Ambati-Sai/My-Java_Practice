@@ -1,4 +1,7 @@
 package com.java.variables;
+/*Definition: Local variables are declared inside methods, blocks, or constructors.
+They are only accessible within the method, block, or constructor where they are defined.
+ */
 
 public class LocalVariable{
 
