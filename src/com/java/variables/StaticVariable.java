@@ -1,4 +1,5 @@
 package com.java.variables;
+
 /*Definition: Class variables are declared with the static keyword and are shared among all instances of the class.
 They are associated with the class itself rather than with any particular instance.
  */
