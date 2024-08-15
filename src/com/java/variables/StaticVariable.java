@@ -12,7 +12,7 @@ public class StaticVariable {
         public static void main(String[] args) {
             StaticVariable.rollNumber = 10; // Accessing via class name
             StaticVariable object = new StaticVariable();
-            object.display(); 
+            object.display();
         }
     }
 
