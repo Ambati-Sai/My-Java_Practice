@@ -10,7 +10,7 @@ public class ArithmeticOperators {
         System.out.println("-----Arithmetic Operators-----");
 
         // Perform and print the result of addition
-        System.out.println("Addition :" + (numberOne + numberTwo)); 
+        System.out.println("Addition :" + (numberOne + numberTwo));
 
         // Perform and print the result of subtraction
         System.out.println("Subtraction :" + (numberOne - numberTwo));
