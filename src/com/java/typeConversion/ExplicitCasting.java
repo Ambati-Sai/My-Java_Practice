@@ -9,26 +9,30 @@ public class ExplicitCasting {
         double marks = 12.5;
         float totalMarks = (float) marks; // Explicit cast from double to float
         System.out.println("double :" + marks);
-        System.out.println("float :" + totalMarks);
+        System.out.println(" double to float :" + totalMarks);
 
         // float to long
         float value = 12.34f;
         long number = (long) value; // Explicit cast from float to long
-        System.out.println("long :" + number);
+        System.out.println("float :" + value);
+        System.out.println("float to long :" + number);
 
         // long to int
         long phoneNumber = 1234567890L;
         int mobileNumber = (int) phoneNumber; // Explicit cast from long to int
-        System.out.println("int :" + mobileNumber);
+        System.out.println("long :" + phoneNumber);
+        System.out.println("long to int :" + mobileNumber);
 
         // int to short
         int productCost = 32767;
         short cost = (short) productCost; // Explicit cast from int to short
-        System.out.println("short :" + cost);
+        System.out.println("int :" + productCost);
+        System.out.println("int to short :" + cost);
 
         //short to byte
-        short rollnumber = 120;
-        byte rollNO = (byte) rollnumber; // Explicit cast from short to byte
-        System.out.println("byte :" + rollNO);
+        short rollNumber = 120;
+        byte rollNO = (byte) rollNumber; // Explicit cast from short to byte
+        System.out.println("short :" + rollNumber);
+        System.out.println("short to byte :" + rollNO);
     }
 }
