@@ -1,4 +1,4 @@
-package com.java.ifelse;
+package com.java.controlstatements;
 
 import java.util.Scanner;
 

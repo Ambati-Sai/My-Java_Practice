@@ -1,4 +1,4 @@
-package com.java.ifelse;
+package com.java.controlstatements;
 
 public class BreakExample {
     public static void main(String[] args) {

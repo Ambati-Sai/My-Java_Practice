@@ -1,4 +1,4 @@
-package com.java.ifelse;
+package com.java.controlstatements;
 
 public class ForLoopExample {
     public static void main(String[] args) {
