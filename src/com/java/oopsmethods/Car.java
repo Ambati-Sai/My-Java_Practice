@@ -7,21 +7,20 @@ public class Car {
     String carModel;
     int year;
 
-   // Method with parameters and no return type
-   public void updateCarDetails(String carName, String carBrand, String carModel, int year) {
-       this.carName = carName;
-       this.carBrand = carBrand;
-       this.carModel = carModel;
-       this.year = year;
-   }
+    // Method with no parameters and a return type
+    public String getCarDetails() {
+        // Construct a string containing the car details
+        return "Car Name: " + carName + "\n" +
+                "Car Brand: " + carBrand + "\n" +
+                "Car Model: " + carModel + "\n" +
+                "Year: " + year;
+    }
 
     // Method with no parameters and no return type
     public void displayCarDetails() {
-        System.out.println("Car Name: " + carName);
-        System.out.println("Car Brand: " + carBrand);
-        System.out.println("Car Model: " + carModel);
-        System.out.println("Year: " + year);
+        System.out.println(getCarDetails());
         System.out.println();
     }
 }
+
 
