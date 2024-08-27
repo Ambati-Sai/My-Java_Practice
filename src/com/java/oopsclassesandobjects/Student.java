@@ -1,4 +1,4 @@
-package com.java.oops;
+package com.java.oopsclassesandobjects;
 
 public class Student {
     // The name of the student

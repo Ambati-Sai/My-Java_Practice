@@ -1,4 +1,4 @@
-package com.java.oops;
+package com.java.oopsclassesandobjects;
 
 public class Customer {
     // State (data) - These fields represent the attributes of a customer.

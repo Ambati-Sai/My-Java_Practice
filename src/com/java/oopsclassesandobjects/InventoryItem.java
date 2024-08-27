@@ -1,4 +1,4 @@
-package com.java.oops;
+package com.java.oopsclassesandobjects;
 
 public class InventoryItem {
     // Instance variable to store the name of the item

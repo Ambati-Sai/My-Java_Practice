@@ -1,4 +1,4 @@
-package com.java.oops;
+package com.java.oopsclassesandobjects;
 
 public class InventoryItemMain {
     public static void main(String[] args) {
