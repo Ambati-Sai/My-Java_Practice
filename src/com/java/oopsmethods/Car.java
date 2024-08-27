@@ -7,6 +7,14 @@ public class Car {
     String carModel;
     int year;
 
+   // Method with parameters and no return type
+   public void updateCarDetails(String carName, String carBrand, String carModel, int year) {
+       this.carName = carName;
+       this.carBrand = carBrand;
+       this.carModel = carModel;
+       this.year = year;
+   }
+
     // Method with no parameters and no return type
     public void displayCarDetails() {
         System.out.println("Car Name: " + carName);
@@ -16,3 +24,4 @@ public class Car {
         System.out.println();
     }
 }
+
