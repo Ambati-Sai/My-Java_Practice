@@ -1,4 +1,4 @@
-package com.java.inheritanceexample;
+package com.java.hierarchicalinheritance;
 
 public class Customer {
     int id;
@@ -6,14 +6,14 @@ public class Customer {
     String email;
     String contactNo;
     int salary;
-    byte age;
+    int age;
 
     public Customer() {
     }
 
-    public Customer(String name, int id, String email, String contactNo, int salary, byte age) {
-        this.name = name;
+    public Customer(int id,String name, String email, String contactNo, int salary, int age) {
         this.id = id;
+        this.name = name;
         this.email = email;
         this.contactNo = contactNo;
         this.salary = salary;
@@ -21,8 +21,8 @@ public class Customer {
     }
 
     public void customerDetails() {
-        System.out.println("Name: " + name);
         System.out.println("Id: " + id);
+        System.out.println("Name: " + name);
         System.out.println("Email: " + email);
         System.out.println("Contact Number: " + contactNo);
         System.out.println("Salary: " + salary);
