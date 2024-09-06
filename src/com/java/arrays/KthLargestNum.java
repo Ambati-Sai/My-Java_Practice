@@ -10,7 +10,7 @@ public class KthLargestNum {
         System.out.println("Enter Size of array:");
         int size = scanner.nextInt();
 
-        int[] numbers = new int[size];  
+        int[] numbers = new int[size];
 
         // Loop to fill the array with user input
         for (int i = 0; i < size; i++) {
